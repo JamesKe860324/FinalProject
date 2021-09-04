@@ -1,6 +1,6 @@
 資料前處理 for model:
 
-#### 原始資料表 ####
+#### 原始資料表 Ultimate_table ####
 
 # 建立新的variables:
  1. age (屋齡)
@@ -12,7 +12,7 @@
  4. 新增經緯度 
  
 
-#### TableForModel_(origin) ####
+#### table_for_model ####
 
 # 時間處理(完成年月及交易時間格式不一)
  1. 101xxxx, 90xxxx(長度6以下篩選 -> 剔除或統一格式)
@@ -68,12 +68,22 @@
 	"雙溪區"=27,
 	"鶯歌區"=28
 
+# 樓層清理(floor含B1、check、nan)
+ 1. 以transaction_floor最大值為floor
+
+  
+
 # 建立新的variables:
  1. year-month (從trade_time取出)
 
 # 移除model不需要的欄位
  1. 電梯
  2. 完整地址
+
+####  ####
+
+
+
 
 #### 不同的模型需求 ####
 
