@@ -1,0 +1,203 @@
+{% extends "base.html" %}
+
+
+{% block page_content %}
+{{ super() }}
+<section class="bg-light py-5 border-bottom" id="choose">
+    <div class="container px-5 my-5">
+        <div class="text-center mb-3">
+            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <h2 class="fw-bolder">區域輕鬆選</h2>
+            <p class="lead mb-0">iHouse 一把罩</p>
+            <!-- Map section-->
+            <header class="bg-white py-5">
+                <div class="container px-4">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="row-cols-lg-auto py-5">
+                            <img src="/static/img/map.png">
+                        </div>
+
+                        <div class="col-lg-10">
+                            <div class="text-right my-4">
+                                <!-- Row 1 section-->
+                                <div style="margin-top:15px">
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Xizhii" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        汐止區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Jinshan" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        金山區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Wanli" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        萬里區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Sanzhi" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        三芝區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Danshui" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        淡水區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Bali" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        八里區
+                                    </a>
+                                </div>
+                                <!-- Row 2 section-->
+                                <div style="margin-top:15px">
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Linkou" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        林口區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Wugu" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        五股區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Taishan" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        泰山區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Luzhou" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        蘆洲區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Sanchong"
+                                        role="button" style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        三重區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Xinzhuang"
+                                        role="button" style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        新莊區
+                                    </a>
+                                </div>
+                                <!-- Row 3 section-->
+                                <div style="margin-top:15px">
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Shulin" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        樹林區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Yingge" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        鶯歌區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Tucheng" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        土城區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Sanxia" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        三峽區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Wulai" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        烏來區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Banqiao" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        板橋區
+                                    </a>
+                                </div>
+                                <!-- Row 4 section-->
+                                <div style="margin-top:15px">
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Yonghe" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        永和區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Zhonghe" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        中和區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Xindian" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        新店區
+                                    </a>
+                                    <a class="btn btn-outline-dark flex-shrink-0" href="/district_Shenkeng"
+                                        role="button" style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        深坑區
+                                    </a>
+                                    <button class="btn btn-secondary flex-shrink-0" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        石碇區
+                                    </button>
+                                    <button class="btn btn-secondary flex-shrink-0" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        坪林區
+                                    </button>
+                                </div>
+                                <!-- Row 5 section-->
+                                <div style="margin-top:15px">
+                                    <button class="btn btn-secondary flex-shrink-0" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        平溪區
+                                    </button>
+                                    <button class="btn btn-secondary flex-shrink-0" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        雙溪區
+                                    </button>
+                                    <button class="btn btn-secondary flex-shrink-0" href="#" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        貢寮區
+                                    </button>
+                                    <button class="btn btn-secondary flex-shrink-0" href="#" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        瑞芳區
+                                    </button>
+
+                                    <button class="btn btn-secondary flex-shrink-0" href="#" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        石門區
+                                    </button>
+                                    <button class="btn btn-secondary flex-shrink-0" href="#" role="button"
+                                        style="margin-right:15px">
+                                        <i class="bi-geo-alt-fill me-1"></i>
+                                        -------
+                                    </button>
+                                </div>
+                                <!-- Row 6 footnote-->
+                                <div style="margin-top:50px">
+                                    <p class="my-2">*註：石碇區、坪林區、平溪區、雙溪區、貢寮區、瑞芳區及石門區，共7個行政區因樣本不足，故未建立房價預測數據。</p>
+                                </div>
+
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+</section>
+{% endblock page_content %}
