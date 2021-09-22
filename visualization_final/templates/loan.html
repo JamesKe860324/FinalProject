@@ -1,0 +1,427 @@
+{% extends "base.html" %}
+
+
+{% block page_content %}
+{{ super() }}
+<!-- Page header -->
+<!-- <header class="py-5 bg-light border-bottom mb-4">
+    <div class="container">
+        <div class="text-center my-5">
+            <h1 class="fw-bolder">貸款試算</h1>
+        </div>
+    </div>
+</header> -->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="text-center mb-5">
+            <h2 class="fw-bolder">房貸方案精選推薦</h2>
+            <br>
+        </div>
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Bank image-->
+                    <img class="bank-img" src="/static/img/第一銀行.PNG" alt="..." />
+                    <!-- Bank details-->
+                    <div class="card-body p-4">
+                        <div class="text-left">
+                            <h5 class="fw-bolder" style="text-align:center">第一銀行 青年安心成家</h5>
+                            <br><br />
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    專案截止日: 2022/12/31
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    貸款金額: 最高 800萬元
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    貸款期間: 30年，寬限3年
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Bank actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-primary mt-auto"
+                                href="https://www.firstbank.com.tw/sites/fcb/1565687623166" target='_blank'>線上申請</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Bank image-->
+                    <img class="bank-img" src="/static/img/台灣企銀.PNG" alt="..." />
+                    <!-- Bank details-->
+                    <div class="card-body p-4">
+                        <div class="text-left">
+                            <h5 class="fw-bolder" style="text-align:center">臺灣企銀 青年安心成家</h5>
+                            <br><br />
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    專案截止日: 2022/12/31
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    貸款金額: 最高 800萬元
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    貸款期間: 30年，寬限3年
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Bank actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-primary mt-auto"
+                                href="https://www.tbb.com.tw/web/guest/-192">線上申請</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Bank image-->
+                    <img class="bank-img" src="/static/img/全國農業金庫.PNG" alt="..." />
+                    <!-- Bank details-->
+                    <div class="card-body p-4">
+                        <div class="text-left">
+                            <h5 class="fw-bolder" style="text-align:center">全國農業金庫 青年首購</h5>
+                            <br><br />
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    專案截止日: 2021/12/31
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    貸款金額: 最高 800萬元
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    貸款期間: 30年，寬限3年
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Bank actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-primary mt-auto"
+                                href="https://www.agribank.com.tw/Page?itemid=20&mid=39">線上申請</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Bank image-->
+                    <img class="bank-img" src="/static/img/臺灣銀行.PNG" alt="..." />
+                    <!-- Bank details-->
+                    <div class="card-body p-4">
+                        <div class="text-left">
+                            <h5 class="fw-bolder" style="text-align:center">臺灣銀行 青年安心成家</h5>
+                            <br><br />
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    專案截止日: 2022/12/31
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    貸款金額: 最高 800萬元
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    貸款期間: 30年，寬限3年
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Bank actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-primary mt-auto"
+                                href="https://www.bot.com.tw/Business/Loans/ConsumerLoan/Documents/tb3227.pdf">線上申請</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Bank image-->
+                    <img class="bank-img" src="/static/img/兆豐銀行.PNG" alt="..." />
+                    <!-- Bank details-->
+                    <div class="card-body p-4">
+                        <div class="text-left">
+                            <h5 class="fw-bolder" style="text-align:center">兆豐銀行 青年安心成家</h5>
+                            <br><br />
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    專案截止日: 無
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    貸款金額: 最高 800萬元
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    貸款期間: 30年，寬限3年
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Bank actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-primary mt-auto"
+                                href="https://www.megabank.com.tw/personal/loan/house/youth-housing-grant">線上申請</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Bank image-->
+                    <img class="bank-img" src="/static/img/中國信託.PNG" alt="..." />
+                    <!-- Bank details-->
+                    <div class="card-body p-4">
+                        <div class="text-left">
+                            <h5 class="fw-bolder" style="text-align:center"> 中國信託 青年安心成家</h5>
+                            <br><br />
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    專案截止日: 2021/12/31
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    貸款金額: 最高 800萬元
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    貸款期間: 30年，寬限3年
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Bank actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-primary mt-auto"
+                                href="https://www.ctbcbank.com/content/dam/minisite/long/loan/mortgage/product03.html?MediaChannel=gov&ActivityCode=27000">線上申請</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Bank image-->
+                    <img class="bank-img" src="/static/img/元大銀行.PNG" alt="..." />
+                    <!-- Bank details-->
+                    <div class="card-body p-4">
+                        <div class="text-left">
+                            <h5 class="fw-bolder" style="text-align:center">元大銀行 指數型房貸</h5>
+                            <br><br />
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    專案截止日: 無
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    貸款金額: 最高 依銀行規定辦理
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    貸款期間: 30年，寬限3年
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Bank actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-primary mt-auto"
+                                href="https://www.yuantabank.com.tw/bank/loan/house/list01.do">線上申請</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Bank image-->
+                    <img class="bank-img" src="/static/img/日盛銀行.PNG" alt="..." />
+                    <!-- Bank details-->
+                    <div class="card-body p-4">
+                        <div class="text-left">
+                            <h5 class="fw-bolder" style="text-align:center">日盛銀行 好厝來貸</h5>
+                            <br><br />
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    專案截止日: 無
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    貸款金額: 最高 3000萬
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    貸款期間: 30年，寬限3年
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Bank actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-primary mt-auto"
+                                href="https://www.jihsunbank.com.tw/JsbankNew/Html/product/e-loan/service/house.shtml">線上申請</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="py-5 border-bottom">
+            <div class="text-center mb-5">
+                <h2 class="fw-bolder">2021年 各大銀行房屋貸款利率比較表</h2>
+                <br>
+            </div>
+            <!-- <h2 class="fw-bolder">2021年各大銀行房屋貸款利率比較表</h2> -->
+            <div class="table-responsive">
+                <table class="table table-striped table-sm">
+                    <thead>
+                        <tr>
+                            <th scope="col">銀行</th>
+                            <th scope="col">專案名稱</th>
+                            <th scope="col">首期利率</th>
+                            <th scope="col">利率結構</th>
+                            <th scope="col">30年期 最高800萬房貸月付額(本金+利息)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>第一商業銀行</td>
+                            <td>
+                                <a class="text-decoration-underline"
+                                    href="https://pip.moi.gov.tw/V3/C/SCRC0103.aspx?id=134">青年安心成家購屋優惠貸款專案(分段式利率)</a>
+                            </td>
+                            <td>1.19%</td>
+                            <td>浮動利率</td>
+                            <td>26,432 元</td>
+                        </tr>
+                        <tr>
+                            <td>台灣中小型企業銀行</td>
+                            <td>
+                                <a class="text-decoration-underline"
+                                    href="https://pip.moi.gov.tw/V3/C/SCRC0103.aspx?id=148">青年安心成家購屋優惠貸款專案(分段式利率)</a>
+                            </td>
+                            <td>1.19%</td>
+                            <td>浮動利率</td>
+                            <td>26,432 元</td>
+                        </tr>
+                        <tr>
+                            <td>全國農業金庫股份有限公司</td>
+                            <td>
+                                <a class="text-decoration-underline"
+                                    href="https://pip.moi.gov.tw/V3/C/SCRC0103.aspx?id=149">青年首次購屋優惠貸款</a>
+                            </td>
+                            <td>1.19%</td>
+                            <td>浮動利率</td>
+                            <td>26,432 元</td>
+                        </tr>
+                        <tr>
+                            <td>台灣銀行</td>
+                            <td>
+                                <a class="text-decoration-underline"
+                                    href="https://pip.moi.gov.tw/V3/C/SCRC0103.aspx?id=150">青年安心成家購屋優惠貸款專案(二段式機動利率)</a>
+                            </td>
+                            <td>1.19%</td>
+                            <td>浮動利率</td>
+                            <td>26,432 元</td>
+                        </tr>
+                        <tr>
+                            <td>兆豐國際商業銀行</td>
+                            <td>
+                                <a class="text-decoration-underline"
+                                    href="https://pip.moi.gov.tw/V3/C/SCRC0103.aspx?id=157">青年安心成家購屋優惠貸款專案(第二案)</a>
+                            </td>
+                            <td>1.19%</td>
+                            <td>浮動利率</td>
+                            <td>26,432 元</td>
+                        </tr>
+                        <tr>
+                            <td>中國信託商業銀行</td>
+                            <td>
+                                <a class="text-decoration-underline"
+                                    href="https://pip.moi.gov.tw/V3/C/SCRC0103.aspx?id=221">青年安心成家購屋優惠貸款專案(二階段利率)</a>
+                            </td>
+                            <td>1.19%</td>
+                            <td>浮動利率</td>
+                            <td>26,432 元</td>
+                        </tr>
+                        <tr>
+                            <td>台灣中小型企業銀行</td>
+                            <td>
+                                <a class="text-decoration-underline"
+                                    href="https://pip.moi.gov.tw/V3/C/SCRC0103.aspx?id=243">「幸福貸」房屋擔保貸款</a>
+                            </td>
+                            <td>1.31%</td>
+                            <td>浮動利率</td>
+                            <td>26,888 元</td>
+                        </tr>
+                        <tr>
+                            <td>兆豐國際商業銀行</td>
+                            <td>
+                                <a class="text-decoration-underline"
+                                    href="https://pip.moi.gov.tw/V3/C/SCRC0103.aspx?id=235">優利房貸專案</a>
+                            </td>
+                            <td>1.31%</td>
+                            <td>浮動利率</td>
+                            <td>26,888 元</td>
+                        </tr>
+                        <tr>
+                            <td>元大商業銀行</td>
+                            <td>
+                                <a class="text-decoration-underline"
+                                    href="https://pip.moi.gov.tw/V3/C/SCRC0103.aspx?id=25">指數型房貨</a>
+                            </td>
+                            <td>1.33%</td>
+                            <td>浮動利率</td>
+                            <td>26,960 元</td>
+                        </tr>
+                        <tr>
+                            <td>玉山商業銀行</td>
+                            <td>
+                                <a class="text-decoration-underline"
+                                    href="https://pip.moi.gov.tw/V3/C/SCRC0103.aspx?id=219">e指房貸</a>
+                            </td>
+                            <td>1.35%</td>
+                            <td>浮動利率</td>
+                            <td>27,040 元</td>
+                        </tr>
+                        <tr>
+                            <td>遠東國際商業銀行</td>
+                            <td>
+                                <a class="text-decoration-underline"
+                                    href="https://pip.moi.gov.tw/V3/C/SCRC0103.aspx?id=15">指數型房貸(首購)專案</a>
+                            </td>
+                            <td>1.35%</td>
+                            <td>浮動利率</td>
+                            <td>27,040 元</td>>
+                        </tr>
+                        <tr>
+                            <td>日盛國際商業銀行</td>
+                            <td>
+                                <a class="text-decoration-underline"
+                                    href="https://pip.moi.gov.tw/V3/C/SCRC0103.aspx?id=242">好厝來貸</a>
+                            </td>
+                            <td>1.35%</td>
+                            <td>浮動利率</td>
+                            <td>27,040 元</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+
+    </div>
+</section>
+
+{% endblock page_content %}
